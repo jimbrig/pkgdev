@@ -1,3 +1,5 @@
+context("check_package_name")
+
 test_that("check_package_name works as it should", {
   # Bad Packages
   expect_false(check_package_name("1pkg"))

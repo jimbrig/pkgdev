@@ -25,5 +25,7 @@
 #' check_package_name("my.awesome.pkg")
 #' check_package_name("map")
 check_package_name <- function(txt) {
-  grepl("^[a-zA-Z][a-zA-Z0-9.]+$", txt) && !grepl("\\.$", txt)
+  if (!is.character(txt)) { stop(msg_err("Argument 'txt' must be character..")) }
+  res <- grepl("^[a-zA-Z][a-zA-Z0-9.]+$", txt) && !grepl("\\.$", txt)
+  res
 }
