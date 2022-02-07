@@ -142,3 +142,5 @@ devtools::build_readme()
 
 goodpractice::gp()
 usethis::use_spell_check()
+
+covr::codecov(path = "tests", token = "ea2e3089-5b2f-4ce8-ae1d-cea82bd577a8")
