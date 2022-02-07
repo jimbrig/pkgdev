@@ -68,6 +68,9 @@ usethis::use_mit_license()
 usethis::use_package_doc()
 usethis::use_news_md()
 
+templateeR::use_git_cliff()
+templateeR::use_git_cliff_action()
+
 devtools::build_readme()
 
 
