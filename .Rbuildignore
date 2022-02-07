@@ -9,3 +9,4 @@
 ^codecov\.yml$
 ^cliff\.toml$
 ^CHANGELOG\.md$
+^codemeta\.json$
