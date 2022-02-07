@@ -21,6 +21,7 @@ Imports:
     usethis,
     utils
 Suggests: 
+    spelling,
     covr,
     knitr,
     rmarkdown,
