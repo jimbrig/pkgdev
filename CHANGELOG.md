@@ -14,6 +14,10 @@ All notable changes to this project will be documented in this file.
 - Add codemeta.json metadata
 - Add git-cliff
 
+### Miscellaneous Tasks
+
+- Autopublish 2022-02-07T22:10:53Z
+
 ### Testing
 
 - Add tests for check_package_name
