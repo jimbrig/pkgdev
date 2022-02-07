@@ -46,16 +46,20 @@ devtools::document()
 
 # set description and title first so included in GH repo
 desc::desc_set(
-  "Description" = "My awesome description.",
-  "Title" = "My awesome title"
+  "Description" = "Automate and expedite your package development process in R.",
+  "Title" = "Suite of Helpers for the R Package Developer"
 )
+
+# package version
+desc::desc_set_version("0.0.1")
+
+desc::desc_normalize()
 
 usethis::use_github(private = FALSE)
 
 # github labels -----------------------------------------------------------
-
+library(templateeR)
 templateeR::use_gh_labels()
-
 
 # package docs ------------------------------------------------------------
 
@@ -65,6 +69,18 @@ usethis::use_package_doc()
 usethis::use_news_md()
 
 devtools::build_readme()
+
+
+# directories -------------------------------------------------------------
+
+c(
+  "inst/assets",
+  "inst/scripts",
+  "inst/extdata",
+  # "inst/app",
+  "inst/templates"
+) %>%
+  purrr::walk(fs::dir_create)
 
 # functions ---------------------------------------------------------------
 
@@ -102,5 +118,23 @@ c(
 
 
 
+# pkgdown -----------------------------------------------------------------
+
+usethis::use_pkgdown_github_pages()
+# pak::pak("ropensci/chameleon")
+
+library(chameleon)
+fs::dir_create("inst/docs")
+chameleon::open_pkgdown_function()
+attachment::att_amend_desc()
+attachment::create_dependencies_file("inst/scripts/dependencies.R")
 
 
+usethis::use_coverage()
+usethis::use_github_action("test-coverage")
+covrpage::covrpage()
+
+codemetar::create_codemeta()
+codemetar::give_opinions()
+usethis::use_lifecycle_badge("experimental")
+devtools::build_readme()
