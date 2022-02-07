@@ -4,6 +4,11 @@
 # R Package Developer’s Toolkit - `pkgdev`
 
 <!-- badges: start -->
+
+[![Codecov test
+coverage](https://codecov.io/gh/jimbrig/pkgdev/branch/main/graph/badge.svg)](https://app.codecov.io/gh/jimbrig/pkgdev?branch=main)
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
 The goal of `pkgdev` is to provide the R Package Developer a suite of
@@ -22,11 +27,23 @@ pak::pak("jimbrig/pkgdev")
 
 ## Usage
 
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this. You could also
-use GitHub Actions to re-render `README.Rmd` every time you push. An
-example workflow can be found here:
-<https://github.com/r-lib/actions/tree/v1/examples>.
+`pkgdev` comes with many tools out-of-the-box for package developer’s in
+R to quickly get started:
+
+### Create a new package
+
+To create a new R package locally, run `pkgdev::create_pkg()`:
+
+``` r
+pkgdev::create_pkg("myawesomepkg", pkgdevt_script = TRUE, github = TRUE)
+```
+
+This will perform the following steps:
+
+1.  Create a new directory called `myawesomepkg`
+2.  Initialize an RStudio project, `myawesomepkg.Rproj`, within that
+    directory
+3.  
 
 ------------------------------------------------------------------------
 
