@@ -4,10 +4,13 @@
 \alias{use_feedback_helpers}
 \title{Use Feedback Helpers}
 \usage{
-use_feedback_helpers(pkg = ".")
+use_feedback_helpers(pkg = ".", open = TRUE)
 }
 \arguments{
 \item{pkg}{Package - defaults to "."}
+}
+\value{
+invisibly returns nothing - used for side-effects.
 }
 \description{
 This function allows a package developer to automatically add the suite of
