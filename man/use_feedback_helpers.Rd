@@ -8,6 +8,8 @@ use_feedback_helpers(pkg = ".", open = TRUE)
 }
 \arguments{
 \item{pkg}{Package - defaults to "."}
+
+\item{open}{boolean - should the newly created file be opened on creation?}
 }
 \value{
 invisibly returns nothing - used for side-effects.

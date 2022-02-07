@@ -138,3 +138,6 @@ codemetar::create_codemeta()
 codemetar::give_opinions()
 usethis::use_lifecycle_badge("experimental")
 devtools::build_readme()
+
+goodpractice::gp()
+usethis::use_spell_check()

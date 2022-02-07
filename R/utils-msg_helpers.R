@@ -27,6 +27,7 @@
 #'   - [cli::list_symbols()]
 #'
 #' @param pkg Package - defaults to "."
+#' @param open boolean - should the newly created file be opened on creation?
 #'
 #' @export
 #' @family Feedback Utilities
