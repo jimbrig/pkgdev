@@ -135,6 +135,7 @@ usethis::use_github_action("test-coverage")
 covrpage::covrpage()
 
 codemetar::create_codemeta()
+codemetar::write_codemeta()
 codemetar::give_opinions()
 usethis::use_lifecycle_badge("experimental")
 devtools::build_readme()
