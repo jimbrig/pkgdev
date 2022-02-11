@@ -1,4 +1,14 @@
 Codecov
 Lifecycle
 RStudio
+desc
+devtools
+knitr
+library'd
+pak
 pkgdown
+pkgload
+purrr
+roxygen
+testthat
+usethis

@@ -85,16 +85,27 @@ c(
 ) %>%
   purrr::walk(fs::dir_create)
 
+
+# templates ---------------------------------------------------------------
+
+c(
+  "inst/templates/pkgdevt-template.R"
+) |>
+  fs::file_create()
+
 # functions ---------------------------------------------------------------
 
 c(
   # add function file names here:
-  "msg_helpers",
-  "pkg-check-package-name",
-  "utils",
-  "zzz"
+  "check_package_name",
+  "utils-msg_helpers",
+  "use_pkgdevt_script",
+  "create_pkg",
+  "library_dev_packages",
+  "render_template"
 ) |> purrr::walk(usethis::use_r, open = FALSE)
 
+chameleon::open_pkgdown_function()
 
 # tests -------------------------------------------------------------------
 
