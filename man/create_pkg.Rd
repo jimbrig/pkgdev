@@ -11,6 +11,8 @@ create_pkg(path, pkgdevt_script = TRUE, open = TRUE, ...)
 
 \item{pkgdevt_script}{Boolean - Should a \code{pkgdevt.R} script be created?}
 
+\item{open}{Should the new package be opened?}
+
 \item{...}{Passed onto \code{\link[usethis:create_package]{usethis::create_package()}}}
 }
 \value{

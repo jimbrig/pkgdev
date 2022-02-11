@@ -10,6 +10,7 @@ use_pkgdevt_script(
   package_description = "My awesome description.",
   package_title = "My awesome title",
   github_private_repo = FALSE,
+  open = TRUE,
   ...
 )
 }
@@ -23,6 +24,8 @@ use_pkgdevt_script(
 \item{package_title}{Title}
 
 \item{github_private_repo}{Logical}
+
+\item{open}{Should the file be opened?}
 
 \item{...}{if necessary}
 }
