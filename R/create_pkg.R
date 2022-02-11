@@ -6,6 +6,7 @@
 #'
 #' @param path Path to create package
 #' @param pkgdevt_script Boolean - Should a `pkgdevt.R` script be created?
+#' @param open Should the new package be opened?
 #' @param ... Passed onto [usethis::create_package()]
 #'
 #' @return invisibly returns 0; used for side-effects.
@@ -16,7 +17,7 @@
 create_pkg <- function(path, pkgdevt_script = TRUE, open = TRUE, ...) {
 
   usethis::create_package(path = path, open = FALSE, ...)
-  if (pkgdevt_script) usethis::with_project(path = path, use_pkgdevt_script())
+  if (pkgdevt_script) usethis::with_project(path = path, use_pkgdevt_script(open = FALSE))
   if (open) rstudioapi::openProject(path = path)
   invisible(0)
 

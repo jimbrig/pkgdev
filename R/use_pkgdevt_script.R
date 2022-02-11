@@ -16,6 +16,7 @@
 #' @param package_description Description
 #' @param package_title Title
 #' @param github_private_repo Logical
+#' @param open Should the file be opened?
 #' @param ... if necessary
 #'
 #' @return Invisible
@@ -36,6 +37,7 @@ use_pkgdevt_script <- function(package_name = basename(getwd()),
                                package_description = "My awesome description.",
                                package_title = "My awesome title",
                                github_private_repo = FALSE,
+                               open = TRUE,
                                ...) {
 
   out_file <- fs::path(getwd(), "inst/scripts/pkgdevt.R")
@@ -54,7 +56,7 @@ use_pkgdevt_script <- function(package_name = basename(getwd()),
       today = as.character(Sys.Date()),
       ...
     ),
-    open = TRUE
+    open = open
   )
 
   invisible(0)
