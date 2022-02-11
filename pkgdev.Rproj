@@ -18,5 +18,14 @@ LineEndingConversion: Posix
 
 BuildType: Package
 PackageUseDevtools: Yes
-PackageInstallArgs: --no-multiarch --with-keep.source
+PackageInstallArgs: --install-tests
+PackageBuildBinaryArgs: --install-tests
 PackageRoxygenize: rd,collate,namespace
+
+QuitChildProcessesOnExit: Yes
+
+ZoteroLibraries: "My Library"
+
+PythonType: system
+PythonVersion: 3.9.7
+PythonPath: C:/Program Files/Python39/python.exe
