@@ -31,6 +31,9 @@
     <loc>https://jimbrig.github.io/pkgdev/reference/check_package_name.html</loc>
   </url>
   <url>
+    <loc>https://jimbrig.github.io/pkgdev/reference/create_pkg.html</loc>
+  </url>
+  <url>
     <loc>https://jimbrig.github.io/pkgdev/reference/feedback.html</loc>
   </url>
   <url>
@@ -43,9 +46,18 @@
     <loc>https://jimbrig.github.io/pkgdev/reference/inform.html</loc>
   </url>
   <url>
+    <loc>https://jimbrig.github.io/pkgdev/reference/library_dev_packages.html</loc>
+  </url>
+  <url>
     <loc>https://jimbrig.github.io/pkgdev/reference/open_pkgdown.html</loc>
   </url>
   <url>
+    <loc>https://jimbrig.github.io/pkgdev/reference/render_template.html</loc>
+  </url>
+  <url>
     <loc>https://jimbrig.github.io/pkgdev/reference/use_feedback_helpers.html</loc>
+  </url>
+  <url>
+    <loc>https://jimbrig.github.io/pkgdev/reference/use_pkgdevt_script.html</loc>
   </url>
 </urlset>
