@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 ### Documentation
 
 - Add readme badge and vignette
+- Add man pages
 
 ### Features
 
@@ -32,10 +33,15 @@ All notable changes to this project will be documented in this file.
 - Autopublish 2022-02-11T01:54:54Z
 - Autopublish 2022-02-11T01:59:28Z
 - Autopublish 2022-02-11T02:03:42Z
+- Autopublish 2022-02-11T02:06:55Z
 
 ### Testing
 
 - Add tests for check_package_name
+
+### Bugfix
+
+- Add open params
 
 ### Config
 
