@@ -16,16 +16,15 @@ Imports:
     fs,
     glue,
     here,
-    rlang,
+    rlang (>= 0.4.11),
     usethis,
     utils
 Suggests: 
-    spelling,
     covr,
     knitr,
     rmarkdown,
-    testthat (>= 3.0.0),
-    withr
+    spelling,
+    testthat (>= 3.0.0)
 VignetteBuilder: 
     knitr
 Config/testthat/edition: 3
