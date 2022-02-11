@@ -9,3 +9,8 @@ open_pkgdown()
 \description{
 Open pkgdown site of the package
 }
+\examples{
+\dontrun{
+open_pkgdown()
+}
+}

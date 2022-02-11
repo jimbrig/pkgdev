@@ -1,5 +1,3 @@
-context("check_package_name")
-
 test_that("check_package_name works as it should", {
   # Bad Packages
   expect_false(check_package_name("1pkg"))
@@ -10,5 +8,8 @@ test_that("check_package_name works as it should", {
   expect_true(check_package_name("myawesomepkg"))
   expect_true(check_package_name("my.awesome.pkg"))
   expect_true(check_package_name("map"))
+
+  # error
+  expect_error(check_package_name(1))
 })
 
