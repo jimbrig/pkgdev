@@ -6,7 +6,7 @@ Authors@R:
            comment = c(ORCID = "0000-0002-7489-8787"))
 Description: Automate and expedite your package development process in R.
 License: MIT + file LICENSE
-URL: https://github.com/jimbrig/pkgdev
+URL: https://github.com/jimbrig/pkgdev, http://docs.jimbrig.com/pkgdev/
 BugReports: https://github.com/jimbrig/pkgdev/issues
 Imports: 
     attachment,
@@ -39,4 +39,26 @@ Config/testthat/edition: 3
 Encoding: UTF-8
 Language: en-US
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.0
+Collate: 
+    'add_devcontainer.R'
+    'add_docker.R'
+    'add_dockerignore.R'
+    'add_editorconfig.R'
+    'add_gitattributes.R'
+    'add_github.R'
+    'add_gitignore.R'
+    'add_rbuildignore.R'
+    'add_vscode.R'
+    'check_package_name.R'
+    'convert_df_to_md.R'
+    'create_pkg.R'
+    'library_dev_packages.R'
+    'options.R'
+    'logging.R'
+    'open_pkgdown.R'
+    'pkgdev-package.R'
+    'readme.R'
+    'render_template.R'
+    'use_pkgdevt_script.R'
+    'utils-msg_helpers.R'

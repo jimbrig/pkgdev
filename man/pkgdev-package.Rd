@@ -12,6 +12,7 @@ Automate and expedite your package development process in R.
 Useful links:
 \itemize{
   \item \url{https://github.com/jimbrig/pkgdev}
+  \item \url{http://docs.jimbrig.com/pkgdev/}
   \item Report bugs at \url{https://github.com/jimbrig/pkgdev/issues}
 }
 
