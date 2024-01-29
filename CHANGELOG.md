@@ -36,6 +36,7 @@ All notable changes to this project will be documented in this file.
 - Autopublish 2022-02-11T02:03:42Z
 - Autopublish 2022-02-11T02:06:55Z
 - Autopublish 2022-02-11T02:56:05Z
+- Autopublish 2024-01-29T01:15:55Z
 
 ### Refactor
 
@@ -44,6 +45,10 @@ All notable changes to this project will be documented in this file.
 ### Testing
 
 - Add tests for check_package_name
+
+### Bug
+
+- Fix pkgdown GHA
 
 ### Bugfix
 
