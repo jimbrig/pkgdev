@@ -1,0 +1,295 @@
+---
+title: "Tools"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Tools}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+> R Package Development Tools and Libraries
+
+## R Packages
+
+### Core Development Libraries
+
+> These package should generally be utilized in every package being developed.
+
+For package development automation:
+
+- [usethis]()
+- [devtools]()
+
+For generating documentation (`man/`) pages:
+
+- [roxygen2]()
+
+For testing:
+
+- [testthat]()
+
+### Other Common Libraries
+
+Some additional useful libraries are:
+
+- [remotes](): for dependencies and installations
+
+- [available](): to check if package name is available
+
+- [lifecycle](): function lifecycle
+
+- [desc](): Package description management
+
+- [rmarkdown](), [knitr](), and [pandoc](): for RMarkdown
+
+- [quarto](): for modern documents
+
+- [pkgdown](): generate package documentation static site
+
+- [testdown](): generate test report after running `testthat` tests
+
+- [gitdown](): generate git commit report
+
+### Roxygen Tools
+
+- roxygen2md
+- roxyglobals
+- rd2list
+- Rd2roxygen
+- rd2markdown
+- roxygen2comment
+
+### Dependency Management
+
+- pak
+- attachment
+- renv
+- remotes
+- devtools
+- pacman
+- automagic
+- CodeDepends
+- sysreqs
+- deps
+- pkgnet
+- functiondepends
+
+### Git
+
+- gert
+- gitdown
+- git2r
+- git4r
+- gitr
+- gitGPT
+- precommit
+
+### Configuration
+
+- config
+- pkgconfig
+- options
+
+### Credentials and Secrets
+
+- credentials
+- keyring
+- gitcreds
+- config
+- askpass
+
+plus base R's `Sys.getenv()` and `Sys.setenv()`.
+
+### Fundamental Low Level Packages
+
+> These packages are not necessarilly called directly but are built on top of as
+> dependencies to higher level libraries (i.e. usethis, devtools, etc.)
+
+- pkgload
+- pkgdepends
+- pkgbuild
+- pkgcache
+- pkgapi
+- pkgnet
+
+### Linting and Styling
+
+- goodpractice
+- lintr
+- styler
+- formatR
+- stylermd
+- spelling
+- roxylint
+- cleanr
+- janitor
+- sanitizers
+- refactor
+
+### Documentation
+
+- docthis
+- prettydoc
+- quarto
+- pkgdown
+- testdown
+- gitdown
+- papillon
+- spelling
+- fusen
+- badger
+- badgen
+- bookdown
+- altdoc
+- fledge
+- newsmd
+- autonewsmd
+- docreview
+- covrpage
+
+### Metadata
+
+- codemeta
+- codemetar
+- pkgstats
+
+### Checks and Tests
+
+- testthat
+- testdown
+- autotest
+- tinytest
+- shinytest2
+- goodpractice
+- rcmdcheck
+- spelling
+- testdat
+- validate
+- realtest
+- roxytest
+- autotest
+- checkhelper
+- codetools
+- covr
+- covrpage
+- checkglobals
+- rhub
+
+### Validation and Assertions
+
+- assertthat
+- testdat
+- validate
+
+### Utilities
+
+- cli
+- logger
+- snakecase
+- prefixer
+- addinit
+- fusen
+- golem
+- roger
+- patrick
+- janitor
+- qs
+- fs
+- purrr
+- oysteR
+- foghorn
+- cranlogs
+- dlstats
+- actions
+- rworkflows
+- tic
+- gpg
+- debugr
+- valtools
+- ssh
+- checkmate
+- assertive
+- assertthat
+- pkgcond
+- validate
+- riskmetric
+- represtools
+- containerit
+- dockerfiler
+- packer
+- htmltools
+- onetime
+- gitignore
+- dbx
+- RPostgres
+- DBI
+- dbplyr
+- fs
+- gh
+- whoami
+- sessioninfo
+- plumber
+- rprojroot
+- here
+- whisker
+- config
+- knitr
+- rmarkdown
+- magick
+- spelling
+- desc
+- waldo
+- goodpractice
+- conflicted
+- connections
+- stringr
+- lubridate
+- dm
+- datamodelr
+- vctrs
+- webfakes
+- ps
+- evaluate
+- systemfonts
+- later
+- future
+- promises
+- pillar
+- pretyunits
+- processx
+- callr
+- withr
+- cachem
+- memoise
+- bench
+- R6
+- ymlthis
+- piggyback
+- itdepends
+- debugme
+- dependencies
+- assert
+- pointblank
+- docthis
+- ellipsis
+- miniUI
+- rversions
+- profvis
+- digest
+- pingr
+- rhub
+- automagic
+- pacman
+- rcompendium
+- litr
+- leprechaun
+- pkgverse
+- metamakr
+
