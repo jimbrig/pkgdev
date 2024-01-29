@@ -1,63 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jimbrig.github.io/pkgdev/404.html</loc>
+    <loc>http://docs.jimbrig.com/pkgdev/404.html</loc>
   </url>
   <url>
-    <loc>https://jimbrig.github.io/pkgdev/CHANGELOG.html</loc>
+    <loc>http://docs.jimbrig.com/pkgdev/CHANGELOG.html</loc>
   </url>
   <url>
-    <loc>https://jimbrig.github.io/pkgdev/LICENSE-text.html</loc>
+    <loc>http://docs.jimbrig.com/pkgdev/LICENSE-text.html</loc>
   </url>
   <url>
-    <loc>https://jimbrig.github.io/pkgdev/LICENSE.html</loc>
+    <loc>http://docs.jimbrig.com/pkgdev/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://jimbrig.github.io/pkgdev/articles/index.html</loc>
+    <loc>http://docs.jimbrig.com/pkgdev/articles/index.html</loc>
   </url>
   <url>
-    <loc>https://jimbrig.github.io/pkgdev/articles/pkgdev.html</loc>
+    <loc>http://docs.jimbrig.com/pkgdev/articles/pkgdev.html</loc>
   </url>
   <url>
-    <loc>https://jimbrig.github.io/pkgdev/authors.html</loc>
+    <loc>http://docs.jimbrig.com/pkgdev/articles/tools.html</loc>
   </url>
   <url>
-    <loc>https://jimbrig.github.io/pkgdev/index.html</loc>
+    <loc>http://docs.jimbrig.com/pkgdev/articles/workflow.html</loc>
   </url>
   <url>
-    <loc>https://jimbrig.github.io/pkgdev/news/index.html</loc>
+    <loc>http://docs.jimbrig.com/pkgdev/authors.html</loc>
   </url>
   <url>
-    <loc>https://jimbrig.github.io/pkgdev/reference/check_package_name.html</loc>
+    <loc>http://docs.jimbrig.com/pkgdev/index.html</loc>
   </url>
   <url>
-    <loc>https://jimbrig.github.io/pkgdev/reference/create_pkg.html</loc>
+    <loc>http://docs.jimbrig.com/pkgdev/news/index.html</loc>
   </url>
   <url>
-    <loc>https://jimbrig.github.io/pkgdev/reference/feedback.html</loc>
+    <loc>http://docs.jimbrig.com/pkgdev/reference/check_package_name.html</loc>
   </url>
   <url>
-    <loc>https://jimbrig.github.io/pkgdev/reference/indent.html</loc>
+    <loc>http://docs.jimbrig.com/pkgdev/reference/feedback.html</loc>
   </url>
   <url>
-    <loc>https://jimbrig.github.io/pkgdev/reference/index.html</loc>
+    <loc>http://docs.jimbrig.com/pkgdev/reference/indent.html</loc>
   </url>
   <url>
-    <loc>https://jimbrig.github.io/pkgdev/reference/inform.html</loc>
+    <loc>http://docs.jimbrig.com/pkgdev/reference/index.html</loc>
   </url>
   <url>
-    <loc>https://jimbrig.github.io/pkgdev/reference/library_dev_packages.html</loc>
+    <loc>http://docs.jimbrig.com/pkgdev/reference/inform.html</loc>
   </url>
   <url>
-    <loc>https://jimbrig.github.io/pkgdev/reference/open_pkgdown.html</loc>
+    <loc>http://docs.jimbrig.com/pkgdev/reference/library_dev_packages.html</loc>
   </url>
   <url>
-    <loc>https://jimbrig.github.io/pkgdev/reference/render_template.html</loc>
+    <loc>http://docs.jimbrig.com/pkgdev/reference/open_pkgdown.html</loc>
   </url>
   <url>
-    <loc>https://jimbrig.github.io/pkgdev/reference/use_feedback_helpers.html</loc>
+    <loc>http://docs.jimbrig.com/pkgdev/reference/pkgdev-package.html</loc>
   </url>
   <url>
-    <loc>https://jimbrig.github.io/pkgdev/reference/use_pkgdevt_script.html</loc>
+    <loc>http://docs.jimbrig.com/pkgdev/reference/render_template.html</loc>
+  </url>
+  <url>
+    <loc>http://docs.jimbrig.com/pkgdev/reference/use_feedback_helpers.html</loc>
+  </url>
+  <url>
+    <loc>http://docs.jimbrig.com/pkgdev/reference/use_pkgdevt_script.html</loc>
   </url>
 </urlset>
