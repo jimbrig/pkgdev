@@ -1,11 +1,11 @@
 name: Bug Report
 description: File a bug report issue.
-title: "[Bug]: <Title>"
+title: "[Bug]: "
 labels: [
   "bug"
 ]
 assignees:
-  - {{ github_user }}
+  - jimbrig
 body:
   - type: markdown
     attributes:
