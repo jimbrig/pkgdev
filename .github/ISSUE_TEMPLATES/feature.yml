@@ -1,12 +1,12 @@
 name: "Feature Request"
 description: Create a new issue for a new feature request (enhancement).
-title: "[FEATURE]: <title>"
+title: "[FEATURE]: "
 labels: [
   "feature",
   "enhancement"
 ]
 assignees:
-  - {{ github_user }}
+  - jimbrig
 body:
   - type: markdown
     attributes:
